@@ -40,7 +40,7 @@ def mensagem_abertura():
     print('****************************************')
 
 def leitura_arquivo():
-    arquivo = open('C:\\Users\\aline.vita\\Documents\\Projetos Python\\palavras.txt', 'r')
+    arquivo = open(palavras.txt', 'r')
     palavras = []
 
     for linha in arquivo:
